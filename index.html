@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Homework #3 DOM API/Browser API</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://use.fontawesome.com/49a44f2ca9.js"></script>
+    <script src="scripts/posts.js"></script>
+</head>
+<body>
+    <header class="clearfix">
+        <h1>World news</h1>
+    </header>
+    <section id="main-section">
+        <div id="main-header">
+            <ul id="tags-container">
+                <li id="tagTemplate" class="tag-block">
+                    <input type="checkbox">
+                    <span></span>
+                </li>
+            </ul>
+            <div id="search-box">
+                <form action="" autocomplete="on">
+                    <input id="search" name="search" type="text" placeholder="Search...">
+                    <input id="search_submit" value="submit" type="submit">
+                </form>
+            </div>
+        </div>
+        <div id="wrap">
+            <article id="postTemplate" class="post">
+                <img class="post-image" src="" alt="" width="250" height="150">
+                <h2 class="post-title"></h2>
+                <p class="post-description"></p>
+                <p class="post-date"></p>
+                <p class="post-tags"></p>
+                <button class="remove-btn" type="button">
+                    <i class="fa fa-trash-o fa-2x" aria-hidden="true"></i>
+                </button>
+            </article>
+        </div>
+    </section>
+    <footer>
+        <div id="contact-info">
+            <div id="copyright">2017 All Rights Reserved.</div>
+            <ul id="soc-networks">
+                <li>
+                    <a target="_blank" href="/#">
+                        <i class="fa fa-facebook-square fa-lg"></i>
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" href="/#">
+                        <i class="fa fa-twitter fa-lg"></i>
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" href="/#">
+                        <i class="fa fa-telegram fa-lg"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
